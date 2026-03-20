@@ -128,7 +128,7 @@ The generated figure overlays representative finger shapes, joint-angle growth v
 
 ![Predicted finger curling animation](imgs/finger-curl.gif)
 
-The animation uses the same model as the plot and shows how the finger shape evolves as actuator pull increases.
+The animation uses the same model as the plot and shows how the finger shape evolves as actuator pull increases. Force is not as important for my use case, as my motors are position-controlled, but it is still interesting to see how the model predicts tension growth as the finger curls since we have that beam bending stiffness in the mix...
 
 ## Run the Model
 
@@ -142,7 +142,7 @@ just animate
 
 `just all` will regenerate both outputs.
 
-If your system Python does not already have the plotting dependencies, do a one-time local setup:
+If anyone wants to replicate this, if your system Python does not already have the plotting dependencies, do a one-time local setup:
 
 ```bash
 python3 -m venv .venv
