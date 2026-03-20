@@ -1,0 +1,9 @@
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.venv/
+.cache/
+__pycache__/
+*.pyc
+*.swp
+*.swo
