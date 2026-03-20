@@ -3,8 +3,8 @@
 Compliant Tendon-Actuated Gripper is a mechanical robotics project centered on a monolithic TPU finger that curls through flexure joints when a tendon is pulled along its palmar side. The goal is not just to print a soft mechanism that moves, but to build one whose motion can be predicted from geometry and actuator input with a pseudo-rigid-body (PRB) model.
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="imgs/first_prototype.png" alt="First prototype" height="400"/>
-  <img src="imgs/finger_cad.png" alt="Finger CAD model" height="400"/>
+  <img src="imgs/first_prototype.png" alt="First prototype" height="300"/>
+  <img src="imgs/finger_cad.png" alt="Finger CAD model" height="300"/>
 </div>
 
 ---
